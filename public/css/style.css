@@ -1,0 +1,196 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+}
+
+.categories,
+.products,
+.product-info {
+  width: 30%;
+  padding: 20px;
+  background-color: #fff;
+  margin: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.categories ul {
+  list-style: none;
+  padding: 0;
+}
+
+.categories li {
+  margin-bottom: 10px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.products div {
+  margin-bottom: 10px;
+  cursor: pointer;
+  border: 1px solid #e0e0e0;
+  padding: 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+  background-color: #fff;
+}
+
+.products div:hover {
+  background-color: #f9f9f9;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.products h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.products p {
+  font-size: 16px;
+  color: #666;
+}
+
+.product-info h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.product-info p {
+  font-size: 18px;
+  color: #333;
+}
+
+.product-info button {
+  display: block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  transition: background-color 0.3s;
+}
+
+.product-info button:hover {
+  background-color: #0056b3;
+}
+
+.orderform {
+  width: 100%;
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+
+  box-sizing: border-box;
+}
+
+.orderform h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.orderform label {
+  font-size: 18px;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.orderform input[type="text"],
+.orderform input[type="number"],
+.orderform select,
+.orderform textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.orderform input[type="radio"] {
+  margin-right: 10px;
+  font-size: 16px;
+}
+
+.orderform button[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  transition: background-color 0.3s;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.orderform button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+.order-summary {
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  margin-top: 20px;
+  box-sizing: border-box;
+  display: none;
+}
+
+.order-summary h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.order-summary p {
+  font-size: 18px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+#my-orders-btn {
+  margin: 12px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  width: 150px;
+  transition: background-color 0.3s, width 0.3s;
+  border-radius: 5px;
+}
+
+#my-orders-btn:hover {
+  background-color: #0056b3;
+}
+
+#my-orders-btn:active {
+  width: 150px;
+}
+
+#my-orders-btn .icon {
+  margin-right: 5px;
+}
